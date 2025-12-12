@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="37" passed="37" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-08T00:10:41 IST" name="Suite" finished-at="2025-12-08T00:14:44 IST" duration-ms="242981">
+    <groups>
+    </groups>
+    <test started-at="2025-12-08T00:10:41 IST" name="Test" finished-at="2025-12-08T00:14:44 IST" duration-ms="242981">
+      <class name="Test.AddToCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.AddToCartTest@7c6908d7]" started-at="2025-12-08T00:11:57 IST" name="setup" finished-at="2025-12-08T00:12:06 IST" duration-ms="8617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addSamsungGalaxyS6()[pri:1, instance:Test.AddToCartTest@7c6908d7]" started-at="2025-12-08T00:12:06 IST" name="addSamsungGalaxyS6" finished-at="2025-12-08T00:12:24 IST" duration-ms="18249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSamsungGalaxyS6 -->
+        <test-method signature="addMacBookPro()[pri:3, instance:Test.AddToCartTest@7c6908d7]" started-at="2025-12-08T00:12:24 IST" name="addMacBookPro" finished-at="2025-12-08T00:12:33 IST" duration-ms="9347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMacBookPro -->
+        <test-method signature="addSonyVaio()[pri:4, instance:Test.AddToCartTest@7c6908d7]" started-at="2025-12-08T00:12:33 IST" name="addSonyVaio" finished-at="2025-12-08T00:12:37 IST" duration-ms="3990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSonyVaio -->
+        <test-method signature="removeSamsungGalaxyS6()[pri:5, instance:Test.AddToCartTest@7c6908d7]" started-at="2025-12-08T00:12:37 IST" name="removeSamsungGalaxyS6" finished-at="2025-12-08T00:12:53 IST" duration-ms="15604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeSamsungGalaxyS6 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.AddToCartTest@7c6908d7]" started-at="2025-12-08T00:12:53 IST" name="tearDown" finished-at="2025-12-08T00:12:53 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.AddToCartTest -->
+      <class name="Test.logintest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.logintest@3857f613]" started-at="2025-12-08T00:11:06 IST" name="setup" finished-at="2025-12-08T00:11:14 IST" duration-ms="7750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLogin()[pri:1, instance:Test.logintest@3857f613]" started-at="2025-12-08T00:11:14 IST" name="validLogin" finished-at="2025-12-08T00:11:15 IST" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method signature="invalidLogin()[pri:2, instance:Test.logintest@3857f613]" started-at="2025-12-08T00:11:15 IST" name="invalidLogin" finished-at="2025-12-08T00:11:18 IST" duration-ms="3814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="loginWithEmptyUsername()[pri:3, instance:Test.logintest@3857f613]" started-at="2025-12-08T00:11:18 IST" name="loginWithEmptyUsername" finished-at="2025-12-08T00:11:24 IST" duration-ms="5724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyUsername -->
+        <test-method signature="loginWithEmptyPassword()[pri:4, instance:Test.logintest@3857f613]" started-at="2025-12-08T00:11:24 IST" name="loginWithEmptyPassword" finished-at="2025-12-08T00:11:31 IST" duration-ms="6910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyPassword -->
+        <test-method signature="loginWithBothFieldsEmpty()[pri:5, instance:Test.logintest@3857f613]" started-at="2025-12-08T00:11:31 IST" name="loginWithBothFieldsEmpty" finished-at="2025-12-08T00:11:34 IST" duration-ms="3269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBothFieldsEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.logintest@3857f613]" started-at="2025-12-08T00:11:34 IST" name="tearDown" finished-at="2025-12-08T00:11:35 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.logintest -->
+      <class name="Test.ContactTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.ContactTest@79079097]" started-at="2025-12-08T00:13:12 IST" name="setup" finished-at="2025-12-08T00:13:26 IST" duration-ms="13082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testContactSendMessage()[pri:1, instance:Test.ContactTest@79079097]" started-at="2025-12-08T00:13:26 IST" name="testContactSendMessage" finished-at="2025-12-08T00:13:28 IST" duration-ms="2063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactSendMessage -->
+        <test-method signature="testContactWithoutEnteringData()[pri:2, instance:Test.ContactTest@79079097]" started-at="2025-12-08T00:13:28 IST" name="testContactWithoutEnteringData" finished-at="2025-12-08T00:13:29 IST" duration-ms="1399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactWithoutEnteringData -->
+        <test-method signature="testInvalidEmailFormat()[pri:3, instance:Test.ContactTest@79079097]" started-at="2025-12-08T00:13:29 IST" name="testInvalidEmailFormat" finished-at="2025-12-08T00:13:40 IST" duration-ms="11054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailFormat -->
+        <test-method signature="testEmailEmpty()[pri:4, instance:Test.ContactTest@79079097]" started-at="2025-12-08T00:13:40 IST" name="testEmailEmpty" finished-at="2025-12-08T00:13:42 IST" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailEmpty -->
+        <test-method signature="testNameEmpty()[pri:5, instance:Test.ContactTest@79079097]" started-at="2025-12-08T00:13:42 IST" name="testNameEmpty" finished-at="2025-12-08T00:14:07 IST" duration-ms="25171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNameEmpty -->
+        <test-method signature="testMessageEmpty()[pri:6, instance:Test.ContactTest@79079097]" started-at="2025-12-08T00:14:07 IST" name="testMessageEmpty" finished-at="2025-12-08T00:14:15 IST" duration-ms="8408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMessageEmpty -->
+        <test-method signature="testLongMessage()[pri:7, instance:Test.ContactTest@79079097]" started-at="2025-12-08T00:14:15 IST" name="testLongMessage" finished-at="2025-12-08T00:14:37 IST" duration-ms="22034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLongMessage -->
+        <test-method signature="testSpecialCharactersMessage()[pri:8, instance:Test.ContactTest@79079097]" started-at="2025-12-08T00:14:37 IST" name="testSpecialCharactersMessage" finished-at="2025-12-08T00:14:40 IST" duration-ms="2825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecialCharactersMessage -->
+        <test-method signature="testXSSPayload()[pri:11, instance:Test.ContactTest@79079097]" started-at="2025-12-08T00:14:40 IST" name="testXSSPayload" finished-at="2025-12-08T00:14:42 IST" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXSSPayload -->
+        <test-method signature="testAlertNotPresent()[pri:12, instance:Test.ContactTest@79079097]" started-at="2025-12-08T00:14:42 IST" name="testAlertNotPresent" finished-at="2025-12-08T00:14:43 IST" duration-ms="1655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlertNotPresent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.ContactTest@79079097]" started-at="2025-12-08T00:14:43 IST" name="tearDown" finished-at="2025-12-08T00:14:44 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.ContactTest -->
+      <class name="Test.HomePageText">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.HomePageText@198b6731]" started-at="2025-12-08T00:11:35 IST" name="setup" finished-at="2025-12-08T00:11:41 IST" duration-ms="6434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="listProductNamesAndPrices()[pri:0, instance:Test.HomePageText@198b6731]" started-at="2025-12-08T00:11:41 IST" name="listProductNamesAndPrices" finished-at="2025-12-08T00:11:42 IST" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listProductNamesAndPrices -->
+        <test-method signature="verifyHomePageLogo()[pri:1, instance:Test.HomePageText@198b6731]" started-at="2025-12-08T00:11:42 IST" name="verifyHomePageLogo" finished-at="2025-12-08T00:11:42 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLogo -->
+        <test-method signature="verifyCategoriesVisible()[pri:2, instance:Test.HomePageText@198b6731]" started-at="2025-12-08T00:11:42 IST" name="verifyCategoriesVisible" finished-at="2025-12-08T00:11:42 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategoriesVisible -->
+        <test-method signature="verifyPhonesCategory()[pri:3, instance:Test.HomePageText@198b6731]" started-at="2025-12-08T00:11:42 IST" name="verifyPhonesCategory" finished-at="2025-12-08T00:11:42 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhonesCategory -->
+        <test-method signature="verifyLaptopsCategory()[pri:4, instance:Test.HomePageText@198b6731]" started-at="2025-12-08T00:11:42 IST" name="verifyLaptopsCategory" finished-at="2025-12-08T00:11:42 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLaptopsCategory -->
+        <test-method signature="verifyMonitorsCategory()[pri:5, instance:Test.HomePageText@198b6731]" started-at="2025-12-08T00:11:42 IST" name="verifyMonitorsCategory" finished-at="2025-12-08T00:11:43 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMonitorsCategory -->
+        <test-method signature="verifyNextButtonCarousel()[pri:6, instance:Test.HomePageText@198b6731]" started-at="2025-12-08T00:11:43 IST" name="verifyNextButtonCarousel" finished-at="2025-12-08T00:11:43 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNextButtonCarousel -->
+        <test-method signature="verifyPreviousButtonCarousel()[pri:7, instance:Test.HomePageText@198b6731]" started-at="2025-12-08T00:11:43 IST" name="verifyPreviousButtonCarousel" finished-at="2025-12-08T00:11:43 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPreviousButtonCarousel -->
+        <test-method signature="verifyCartNavigation()[pri:8, instance:Test.HomePageText@198b6731]" started-at="2025-12-08T00:11:43 IST" name="verifyCartNavigation" finished-at="2025-12-08T00:11:51 IST" duration-ms="8221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartNavigation -->
+        <test-method signature="verifyContactModal()[pri:9, instance:Test.HomePageText@198b6731]" started-at="2025-12-08T00:11:51 IST" name="verifyContactModal" finished-at="2025-12-08T00:11:57 IST" duration-ms="5881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactModal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.HomePageText@198b6731]" started-at="2025-12-08T00:11:57 IST" name="tearDown" finished-at="2025-12-08T00:11:57 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.HomePageText -->
+      <class name="Test.PurchaseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.PurchaseTest@3c9754d8]" started-at="2025-12-08T00:12:53 IST" name="setup" finished-at="2025-12-08T00:13:02 IST" duration-ms="8751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="closePlaceOrderFormWithoutData()[pri:1, instance:Test.PurchaseTest@3c9754d8]" started-at="2025-12-08T00:13:02 IST" name="closePlaceOrderFormWithoutData" finished-at="2025-12-08T00:13:06 IST" duration-ms="3859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePlaceOrderFormWithoutData -->
+        <test-method signature="completePurchase()[pri:2, instance:Test.PurchaseTest@3c9754d8]" started-at="2025-12-08T00:13:06 IST" name="completePurchase" finished-at="2025-12-08T00:13:08 IST" duration-ms="2435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completePurchase -->
+        <test-method signature="purchaseWithoutFillingData()[pri:3, instance:Test.PurchaseTest@3c9754d8]" started-at="2025-12-08T00:13:08 IST" name="purchaseWithoutFillingData" finished-at="2025-12-08T00:13:12 IST" duration-ms="3773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseWithoutFillingData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.PurchaseTest@3c9754d8]" started-at="2025-12-08T00:13:12 IST" name="tearDown" finished-at="2025-12-08T00:13:12 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.PurchaseTest -->
+      <class name="Test.SignUpTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.SignUpTest@6f03482]" started-at="2025-12-08T00:10:41 IST" name="setup" finished-at="2025-12-08T00:10:46 IST" duration-ms="5511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="valid_user()[pri:1, instance:Test.SignUpTest@6f03482]" started-at="2025-12-08T00:10:46 IST" name="valid_user" description="Verify signup link opens signup modal" finished-at="2025-12-08T00:10:49 IST" duration-ms="2544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_user -->
+        <test-method signature="emptyUsernameTest()[pri:2, instance:Test.SignUpTest@6f03482]" started-at="2025-12-08T00:10:49 IST" name="emptyUsernameTest" description="Signup with empty username" finished-at="2025-12-08T00:10:52 IST" duration-ms="2953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameTest -->
+        <test-method signature="emptyPasswordTest()[pri:3, instance:Test.SignUpTest@6f03482]" started-at="2025-12-08T00:10:52 IST" name="emptyPasswordTest" description="Signup with empty password" finished-at="2025-12-08T00:10:55 IST" duration-ms="3151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPasswordTest -->
+        <test-method signature="specialCharacterUsernameTest()[pri:4, instance:Test.SignUpTest@6f03482]" started-at="2025-12-08T00:10:55 IST" name="specialCharacterUsernameTest" description="Signup with special characters in username" finished-at="2025-12-08T00:11:01 IST" duration-ms="5885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specialCharacterUsernameTest -->
+        <test-method signature="existing_user()[pri:5, instance:Test.SignUpTest@6f03482]" started-at="2025-12-08T00:11:01 IST" name="existing_user" description="Signup with existing username" finished-at="2025-12-08T00:11:05 IST" duration-ms="4633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existing_user -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.SignUpTest@6f03482]" started-at="2025-12-08T00:11:05 IST" name="tearDown" finished-at="2025-12-08T00:11:06 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.SignUpTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
